@@ -1,0 +1,60 @@
+🧠 Agentic Marketplace (CLI Demo)
+A beginner-friendly agentic AI marketplace simulation showing how autonomous buyer and seller agents interact, negotiate, transact, and explain outcomes — all in a clean terminal dashboard.
+🚀 What This Project Does
+This project simulates an agent-driven marketplace where:
+Buyers submit service requests
+Sellers autonomously accept or refuse
+Payments can succeed or fail
+Every outcome is clearly explained in a readable table
+The goal is transparency — not just what happened, but why it happened.
+📊 Example Output
+Copy code
+
++----------------------------------------------------------------------------+
+|                            Agentic Marketplace                             |
++---------+---------------+----------+-----------------------------+---------+
+|  Buyer  | Payment (ETH) |  Seller  |            Status           | TX Hash |
++---------+---------------+----------+-----------------------------+---------+
+| Buyer_1 |     0.004     | Seller_2 |          Delivered          | 0x4ab12 |
+|         |               |          | ↳ Weather today is Sunny ☀️ |         |
+| Buyer_2 |     0.001     | Seller_1 |           Refused           | 0xc912f |
+|         |               |          | ↳ Seller refused service 🤖 |         |
+| Buyer_3 |     0.003     | Seller_3 |        Payment Failed       | 0x9ff21 |
+|         |               |          |   ↳ Payment not enough ❌   |         |
++---------+---------------+----------+-----------------------------+---------+
+🧩 Why This Matters
+Most demos show results only.
+This shows decision-making.
+Autonomous agents
+Negotiation outcomes
+Transparent reasoning
+Human-readable explanations
+That’s real agentic behavior, even in a simple CLI.
+🛠 Tech Stack
+Python 3
+PrettyTable (terminal UI formatting)
+CLI-based simulation (no UI distractions)
+⚙️ How to Run
+1️⃣ Install dependency
+Copy code
+Bash
+python3 -m pip install prettytable
+2️⃣ Run the marketplace
+Copy code
+Bash
+python3 marketplace.py
+🧠 Agent Logic (Simple & Clear)
+✅ Delivered → Payment sufficient, seller accepted
+🤖 Refused → Seller agent declined service
+❌ Payment Failed → Buyer payment below requirement
+Each agent decision is logged and explained inline.
+🎯 Use Cases
+Hackathon demos
+Agentic AI education
+CLI dashboard examples
+Early-stage marketplace simulations
+📌 Why CLI?
+This project focuses on logic and clarity, not frontend polish.
+A dashboard or web UI can be added later — the agent behavior already works.
+👤 Author
+Built by a developer exploring agentic AI systems, autonomous decision flows, and transparent UX for AI agents.
