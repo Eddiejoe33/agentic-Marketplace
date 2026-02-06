@@ -1,6 +1,4 @@
-🧠 Agentic Marketplace (CLI Demo)
-A beginner-friendly agentic AI marketplace simulation showing how autonomous buyer and seller agents interact, negotiate, transact, and explain outcomes — all in a clean terminal dashboard.
-🚀 What This Project Does
+Agentic Marketplace – AI + Blockchain
 This project simulates an agent-driven marketplace where:
 Buyers submit service requests
 Sellers autonomously accept or refuse
@@ -22,20 +20,20 @@ Copy code
 | Buyer_3 |     0.003     | Seller_3 |        Payment Failed       | 0x9ff21 |
 |         |               |          |   ↳ Payment not enough ❌   |         |
 +---------+---------------+----------+-----------------------------+---------+
+Blockchain ready (Sepolia testnet) → https://sepolia.infura.io/v3/YOUR_KEY
 🧩 Why This Matters
-Most demos show results only.
-This shows decision-making.
-Autonomous agents
-Negotiation outcomes
-Transparent reasoning
-Human-readable explanations
-That’s real agentic behavior, even in a simple CLI.
+Most demos show results only. This shows decision-making.
+Autonomous agents negotiate and resolve outcomes.
+Transparent reasoning — why transactions succeed, fail, or get refused.
+Blockchain-ready simulation shows how payments and reputation can exist on-chain.
+Human-readable explanations, perfect for hackathons or education.
 🛠 Tech Stack
 Python 3
 PrettyTable (terminal UI formatting)
 CLI-based simulation (no UI distractions)
+Simulated Sepolia testnet connection (blockchain-ready)
 ⚙️ How to Run
-1️⃣ Install dependency
+1️⃣ Install dependencies
 Copy code
 Bash
 python3 -m pip install prettytable
@@ -47,14 +45,14 @@ python3 marketplace.py
 ✅ Delivered → Payment sufficient, seller accepted
 🤖 Refused → Seller agent declined service
 ❌ Payment Failed → Buyer payment below requirement
-Each agent decision is logged and explained inline.
+Each agent logs decisions with reasoning, now including blockchain readiness.
 🎯 Use Cases
 Hackathon demos
 Agentic AI education
 CLI dashboard examples
 Early-stage marketplace simulations
 📌 Why CLI?
-This project focuses on logic and clarity, not frontend polish.
-A dashboard or web UI can be added later — the agent behavior already works.
+Focuses on logic and clarity, not frontend polish.
+Blockchain + AI agent behavior already works, UI can be added later.
 👤 Author
-Built by a developer exploring agentic AI systems, autonomous decision flows, and transparent UX for AI agents.
+Built by a developer exploring agentic AI systems, autonomous decision flows, and transparent UX for AI marketplaces.
